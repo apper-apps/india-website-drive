@@ -121,9 +121,9 @@ const Home = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {homeData.stats.map((stat, index) => (
+{homeData.stats.map((stat, index) => (
               <motion.div
-                key={stat.id}
+                key={stat?.id || `stat-${index}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
