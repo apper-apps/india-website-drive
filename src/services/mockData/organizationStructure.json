@@ -103,14 +103,8 @@
                 ]
               
             
-          },
-          {
-            "id": "5",
-            "title": "Finance",
-            "level": 2,
-            "expanded": false,
-            "children": []
           }
+          
         ]
       }
     ]
