@@ -16,15 +16,9 @@
             "title": "Administration",
             "level": 2,
             "expanded": false,
-            "children": [
-              {
-                "id": "7",
-                "title": "Office Support Staff",
-                "level": 6,
-                "expanded": false,
-                "children": []
-              }
-            ]
+            "children": []
+              
+            
           },
           {
             "id": "4",
@@ -75,6 +69,13 @@
                           {
                             "id": "14",
                             "title": "Block Mentors",
+                            "level": 6,
+                            "expanded": false,
+                            "children": []
+                          },
+                          {
+                            "id": "7",
+                            "title": "Office Support Staff",
                             "level": 6,
                             "expanded": false,
                             "children": []
