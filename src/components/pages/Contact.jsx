@@ -128,7 +128,7 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
                       <p className="text-gray-600">info@igdindia.org</p>
-                      //<p className="text-gray-600">contact@igdindia.org</p>
+                      
                     </div>
                   </div>
                 </Card>
