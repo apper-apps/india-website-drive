@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&q=80",
+    "title": "Education Program",
+    "description": "Students participating in our literacy program in rural Delhi"
+  },
+  {
+    "Id": 2,
+    "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&q=80",
+    "title": "Community Workshop",
+    "description": "Skill development workshop for women in Greater Kailash community"
+  },
+  {
+    "Id": 3,
+    "image": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&q=80",
+    "title": "Healthcare Initiative",
+    "description": "Free health checkup camp organized by our medical team"
+  },
+  {
+    "Id": 4,
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&q=80",
+    "title": "Youth Development",
+    "description": "Young leaders participating in our youth empowerment program"
+  },
+  {
+    "Id": 5,
+    "image": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=600&q=80",
+    "title": "Environmental Project",
+    "description": "Community tree planting initiative for environmental conservation"
+  },
+  {
+    "Id": 6,
+    "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&q=80",
+    "title": "Nutrition Program",
+    "description": "Children receiving nutritious meals through our feeding program"
+  }
+]

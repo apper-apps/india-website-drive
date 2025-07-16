@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+    "title": "Our Office",
+    "description": "IGD India headquarters in Greater Kailash, New Delhi"
+  },
+  {
+    "Id": 2,
+    "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=80",
+    "title": "Meeting Room",
+    "description": "Conference room where we meet with partners and stakeholders"
+  },
+  {
+    "Id": 3,
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600&q=80",
+    "title": "Work Environment",
+    "description": "Collaborative workspace where our team develops programs"
+  },
+  {
+    "Id": 4,
+    "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&q=80",
+    "title": "Reception Area",
+    "description": "Welcoming space for visitors and community members"
+  }
+]

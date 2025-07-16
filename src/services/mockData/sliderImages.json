@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1200&q=80",
+    "title": "Empowering Education",
+    "subtitle": "Building brighter futures through quality education and skill development programs across rural India",
+    "ctaText": "Learn More"
+  },
+  {
+    "Id": 2,
+    "image": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=1200&q=80",
+    "title": "Community Healthcare",
+    "subtitle": "Providing accessible healthcare services and wellness programs to underserved communities",
+    "ctaText": "Our Programs"
+  },
+  {
+    "Id": 3,
+    "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&q=80",
+    "title": "Sustainable Development",
+    "subtitle": "Creating lasting positive change through innovative and sustainable development initiatives",
+    "ctaText": "Get Involved"
+  }
+]

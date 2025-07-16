@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "icon": "Users",
+    "value": "25,000+",
+    "label": "Lives Impacted",
+    "description": "People directly benefited from our programs"
+  },
+  {
+    "Id": 2,
+    "icon": "MapPin",
+    "value": "150+",
+    "label": "Communities Served",
+    "description": "Villages and urban areas reached"
+  },
+  {
+    "Id": 3,
+    "icon": "Award",
+    "value": "50+",
+    "label": "Programs Completed",
+    "description": "Successful development initiatives"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "Id": 1,
+  "organizationName": "Institute for Global Development, India",
+  "address": {
+    "street": "Greater Kailash",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "postalCode": "110048"
+  },
+  "phone": {
+    "primary": "+91 11 2345 6789",
+    "secondary": "+91 98765 43210"
+  },
+  "email": {
+    "primary": "info@igdindia.org",
+    "secondary": "contact@igdindia.org"
+  },
+  "hours": {
+    "monday": "9:00 AM - 6:00 PM",
+    "tuesday": "9:00 AM - 6:00 PM",
+    "wednesday": "9:00 AM - 6:00 PM",
+    "thursday": "9:00 AM - 6:00 PM",
+    "friday": "9:00 AM - 6:00 PM",
+    "saturday": "10:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  }
+}

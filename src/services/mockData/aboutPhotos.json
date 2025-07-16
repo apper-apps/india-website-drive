@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&q=80",
+    "title": "Team Meeting",
+    "description": "Our dedicated team planning community development strategies"
+  },
+  {
+    "Id": 2,
+    "image": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&q=80",
+    "title": "Field Visit",
+    "description": "Program officers visiting project sites to monitor progress"
+  },
+  {
+    "Id": 3,
+    "image": "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&q=80",
+    "title": "Training Session",
+    "description": "Staff training on new community development methodologies"
+  },
+  {
+    "Id": 4,
+    "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&q=80",
+    "title": "Community Engagement",
+    "description": "Block mentors working directly with local communities"
+  },
+  {
+    "Id": 5,
+    "image": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=600&q=80",
+    "title": "Impact Assessment",
+    "description": "Technical advisors evaluating program effectiveness"
+  },
+  {
+    "Id": 6,
+    "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&q=80",
+    "title": "Office Environment",
+    "description": "Our Greater Kailash office where planning and coordination happens"
+  }
+]
