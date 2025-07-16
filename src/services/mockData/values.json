@@ -1,26 +1,32 @@
 [
   {
     "Id": 1,
-    "icon": "Heart",
-    "title": "Compassion",
-    "description": "We approach every community with empathy and understanding, recognizing the unique challenges and strengths of each situation."
-  },
-  {
-    "Id": 2,
-    "icon": "Shield",
-    "title": "Integrity",
-    "description": "We operate with transparency, accountability, and honesty in all our interactions and program implementations."
-  },
-  {
-    "Id": 3,
     "icon": "Lightbulb",
     "title": "Innovation",
     "description": "We embrace creative solutions and new approaches to address complex development challenges effectively."
   },
   {
-    "Id": 4,
+    "Id": 2,
     "icon": "Handshake",
     "title": "Collaboration",
     "description": "We believe in the power of partnerships and work together with communities, organizations, and stakeholders to create lasting change."
+  },
+  {
+    "Id": 3,
+    "icon": "Heart",
+    "title": "Care",
+    "description": "We approach every community with empathy and compassion, prioritizing the well-being of those we serve."
+  },
+  {
+    "Id": 4,
+    "icon": "Shield",
+    "title": "Integrity",
+    "description": "We operate with transparency, accountability, and honesty in all our interactions and program implementations."
+  },
+  {
+    "Id": 5,
+    "icon": "CheckCircle",
+    "title": "Accountability",
+    "description": "We take responsibility for our actions and ensure our programs deliver measurable results and positive impact."
   }
 ]
