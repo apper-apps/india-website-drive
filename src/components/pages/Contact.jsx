@@ -99,9 +99,9 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Office Address</h3>
                       <p className="text-gray-600">
-                        Institute for Global Development, India<br />
-                        Greater Kailash, New Delhi<br />
-                        Delhi, India
+                        Institute for Global Development<br />
+                        E 106, Greater Kailash III, New Delhi<br />
+                        Delhi - 110048, India
                       </p>
                     </div>
                   </div>
@@ -114,8 +114,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
-                      <p className="text-gray-600">+91 11 2345 6789</p>
-                      <p className="text-gray-600">+91 98765 43210</p>
+                      <p className="text-gray-600">+91 11 4601 7373</p>
+                      <p className="text-gray-600">+91 98109 90931</p>
                     </div>
                   </div>
                 </Card>
@@ -128,7 +128,7 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
                       <p className="text-gray-600">info@igdindia.org</p>
-                      <p className="text-gray-600">contact@igdindia.org</p>
+                      //<p className="text-gray-600">contact@igdindia.org</p>
                     </div>
                   </div>
                 </Card>
