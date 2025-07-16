@@ -15,7 +15,7 @@
             "id": "3",
             "title": "Administration",
             "level": 2,
-            "expanded": false,
+            "expanded": true,
             "children": [
               {
                 "id": "7",
