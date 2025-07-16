@@ -28,6 +28,13 @@
             "children": []
           },
           {
+            "id": "5",
+            "title": "Finance",
+            "level": 2,
+            "expanded": false,
+            "children": []
+          },
+          {
             "id": "4",
             "title": "Program Manager",
             "level": 2,
