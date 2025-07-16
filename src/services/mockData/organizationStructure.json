@@ -15,12 +15,12 @@
             "id": "3",
             "title": "Administration",
             "level": 2,
-            "expanded": true,
+            "expanded": false,
             "children": [
               {
                 "id": "7",
                 "title": "Office Support Staff",
-                "level": 3,
+                "level": 6,
                 "expanded": false,
                 "children": []
               }
@@ -36,7 +36,7 @@
                 "id": "8",
                 "title": "Senior Technical Advisor",
                 "level": 3,
-                "expanded": true,
+                "expanded": false,
                 "children": [
                   {
                     "id": "9",
