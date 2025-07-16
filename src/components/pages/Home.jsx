@@ -171,9 +171,9 @@ const Home = () => {
                 title: "Sustainable Development",
                 description: "Implementing eco-friendly practices and sustainable development initiatives."
               }
-            ].map((area, index) => (
+].map((area, index) => (
               <motion.div
-                key={index}
+                key={area.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
