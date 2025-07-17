@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import { useSelector } from 'react-redux';
+import { AuthContext } from "@/App";
 import ApperIcon from "@/components/ApperIcon";
 import NavigationItem from "@/components/molecules/NavigationItem";
-
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const authContext = useContext(AuthContext);
+  const { user, isAuthenticated } = useSelector((state) => state.user);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -13,6 +16,12 @@ const Header = () => {
 
   const closeMobileMenu = () => {
     setMobileMenuOpen(false);
+  };
+
+  const handleLogout = () => {
+    if (authContext?.logout) {
+      authContext.logout();
+    }
   };
 
   return (
@@ -31,11 +40,26 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-1">
-            <NavigationItem to="/">Home</NavigationItem>
-            <NavigationItem to="/about">About Us</NavigationItem>
-            <NavigationItem to="/contact">Contact</NavigationItem>
-          </nav>
+          <div className="hidden md:flex items-center space-x-1">
+            <nav className="flex items-center space-x-1">
+              <NavigationItem to="/">Home</NavigationItem>
+              <NavigationItem to="/about">About Us</NavigationItem>
+              <NavigationItem to="/contact">Contact</NavigationItem>
+            </nav>
+            {isAuthenticated && (
+              <div className="flex items-center space-x-4 ml-4">
+                <span className="text-sm text-gray-600">
+                  Welcome, {user?.firstName || 'User'}
+                </span>
+                <button
+                  onClick={handleLogout}
+                  className="px-4 py-2 text-sm font-medium text-white bg-primary hover:bg-primary-dark rounded-lg transition-colors"
+                >
+                  Logout
+                </button>
+              </div>
+            )}
+          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -59,7 +83,7 @@ const Header = () => {
               transition={{ duration: 0.2 }}
               className="md:hidden border-t border-gray-200 py-4"
             >
-              <nav className="flex flex-col space-y-2">
+<nav className="flex flex-col space-y-2">
                 <NavigationItem to="/" onClick={closeMobileMenu}>
                   Home
                 </NavigationItem>
@@ -69,6 +93,14 @@ const Header = () => {
                 <NavigationItem to="/contact" onClick={closeMobileMenu}>
                   Contact
                 </NavigationItem>
+                {isAuthenticated && (
+                  <button
+                    onClick={handleLogout}
+                    className="px-4 py-2 text-sm font-medium text-white bg-primary hover:bg-primary-dark rounded-lg transition-colors text-left"
+                  >
+                    Logout
+                  </button>
+                )}
               </nav>
             </motion.div>
           )}
