@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { Route, Router, Routes, useNavigate } from "react-router-dom";
+import { Route, BrowserRouter, Routes, useNavigate } from "react-router-dom";
 import { Provider, useDispatch, useSelector } from "react-redux";
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 import { ToastContainer } from "react-toastify";
@@ -268,8 +268,8 @@ function AppContent() {
 
 function App() {
   return (
-    <Provider store={store}>
-      <Router>
+<Provider store={store}>
+      <BrowserRouter>
         <div className="min-h-screen bg-background">
           <AppContent />
           <ToastContainer
@@ -288,7 +288,7 @@ function App() {
             style={{ zIndex: 9999 }}
           />
         </div>
-      </Router>
+      </BrowserRouter>
     </Provider>
   );
 }
