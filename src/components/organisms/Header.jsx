@@ -29,9 +29,23 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-              <ApperIcon name="Globe" className="w-6 h-6 text-white" />
+<Link to="/" className="flex items-center space-x-3">
+            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-sm">
+              <img 
+                src="https://drive.google.com/uc?export=view&id=1DOiDfeTZ1U3ApkfvQjPfkDfUiSjx-5v4" 
+                alt="IGD India Logo" 
+                className="w-8 h-8 object-contain"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'flex';
+                }}
+              />
+              <div 
+                className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded flex items-center justify-center hidden"
+                style={{ display: 'none' }}
+              >
+                <ApperIcon name="Globe" className="w-5 h-5 text-white" />
+              </div>
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-gray-900">IGD India</h1>
@@ -40,10 +54,11 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
+<div className="hidden md:flex items-center space-x-1">
             <nav className="flex items-center space-x-1">
               <NavigationItem to="/">Home</NavigationItem>
               <NavigationItem to="/about">About Us</NavigationItem>
+              <NavigationItem to="/blog">Blog</NavigationItem>
               <NavigationItem to="/contact">Contact</NavigationItem>
             </nav>
             {isAuthenticated && (
@@ -89,6 +104,9 @@ const Header = () => {
                 </NavigationItem>
                 <NavigationItem to="/about" onClick={closeMobileMenu}>
                   About Us
+                </NavigationItem>
+                <NavigationItem to="/blog" onClick={closeMobileMenu}>
+                  Blog
                 </NavigationItem>
                 <NavigationItem to="/contact" onClick={closeMobileMenu}>
                   Contact
