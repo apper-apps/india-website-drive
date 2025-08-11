@@ -252,10 +252,13 @@ const About = () => {
       <OrganizationChart />
 
       {/* About Photos */}
+      {/* 
       <PhotoGallery 
         photos={aboutData.photos} 
         title="Our Team & Activities"
-      />
+      />    
+
+      */}
 
     </div>
   );
