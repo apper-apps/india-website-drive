@@ -251,6 +251,113 @@ const About = () => {
       {/* Organization Chart */}
       <OrganizationChart />
 
+      import {motion} from "framer-motion";
+      import {Card} from "@/components/ui/card";
+      import {ApperIcon} from "@/components/ApperIcon";
+
+      export default function InfoSection() {
+        (
+          <section>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+              {/* Tax Exemption Certificates */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+              >
+                <Card className="p-6 h-full">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                    <ApperIcon name="Award" className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
+                    Tax Exemption
+                  </h3>
+                  <div className="space-y-3 text-sm">
+                    <div>
+                      <p className="font-medium text-gray-700">Registration Number for 80G:</p>
+                      <p className="text-gray-900">AABCI9042GF20215</p>
+                    </div>
+                    <div>
+                      <p className="font-medium text-gray-700">Registration Number for 12AA:</p>
+                      <p className="text-gray-900">AABCI9042GE20084</p>
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+
+              {/* Banking Information */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="md:col-span-2 lg:col-span-1"
+              >
+                <Card className="p-6 h-full">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                    <ApperIcon name="CreditCard" className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
+                    Banking Details
+                  </h3>
+                  <div className="space-y-3 text-sm">
+                    <div>
+                      <p className="font-medium text-gray-700">Account Number:</p>
+                      <p className="text-gray-900">038694600000013</p>
+                    </div>
+                    <div>
+                      <p className="font-medium text-gray-700">IFS Code:</p>
+                      <p className="text-gray-900">YESB0000386</p>
+                    </div>
+                    <div>
+                      <p className="font-medium text-gray-700">MICR Code:</p>
+                      <p className="text-gray-900">110532062</p>
+                    </div>
+                    <div>
+                      <p className="font-medium text-gray-700">Swift Code:</p>
+                      <p className="text-gray-900">YESBINBB</p>
+                    </div>
+                  </div>
+                </Card>
+              </motion.div>
+
+              {/* Bank Branch Information */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.3 }}
+                className="md:col-span-2"
+              >
+                <Card className="p-6 h-full">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                    <ApperIcon name="Building2" className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
+                    Bank Branch
+                  </h3>
+                  <div className="text-sm text-center">
+                    <p className="text-gray-900 leading-relaxed">
+                      Yes Bank Ltd., Ground Floor, Plot No, M-31A, M-Block Market,
+                      <br />
+                      Greater Kailash-II, New Delhi 110048
+                    </p>
+                  </div>
+                </Card>
+              </motion.div>
+
+            </div>
+          </section>
+        )
+      }
+
+
+
+
+
+
       {/* About Photos */}
       {/* 
       <PhotoGallery 
