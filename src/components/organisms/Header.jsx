@@ -25,8 +25,7 @@ const Header = () => {
               <ApperIcon name="Globe" className="w-6 h-6 text-white" />
             </div>
             <img
-              src="https://content.jdmagicbox.com/v2/comp/delhi/k4/011pxx11.xx11.160322121532.x7k4/catalogue/techlopers-solutions-pvt-ltd-laxmi-nagar-delhi-logo-designers-ucan4jlj72.jpg"
-              alt="Techlopers Solutions"
+              src="https://drive.google.com/file/d/1DOiDfeTZ1U3ApkfvQjPfkDfUiSjx-5v4/view?usp=drive_link"
               className="h-12 w-auto"
             />
             <div className="hidden sm:block">
