@@ -251,15 +251,15 @@ const About = () => {
       {/* Organization Chart */}
       <OrganizationChart />
 
+
+      {/* Tax Exemption Certificates */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4"> 
-
       {
         (
           <section>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-              {/* Tax Exemption Certificates */}
+            
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -340,8 +340,7 @@ const About = () => {
           </section>
         )
       }
-
-        </div>
+      </div>
       </section>
 
 
