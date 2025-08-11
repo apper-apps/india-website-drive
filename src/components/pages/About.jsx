@@ -251,11 +251,7 @@ const About = () => {
       {/* Organization Chart */}
       <OrganizationChart />
 
-      import {motion} from "framer-motion";
-      import {Card} from "@/components/ui/card";
-      import {ApperIcon} from "@/components/ApperIcon";
-
-      export default function InfoSection() {
+      {
         (
           <section>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
