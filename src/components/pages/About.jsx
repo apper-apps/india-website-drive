@@ -323,8 +323,9 @@ const About = () => {
                       
                       <p className="font-medium text-gray-700">Bank Branch:</p>
                       <p className="text-gray-900 leading-relaxed">
-                        Yes Bank Ltd., Ground Floor, Plot No, M-31A, M-Block Market,
-                        Greater Kailash-II, New Delhi 110048
+                        Yes Bank Ltd., Ground Floor,
+                        <br /> Plot No, M-31A, M-Block Market,
+                        Greater Kailash-II, <br /> New Delhi 110048
                       </p>
                     </div>
                   </div>
