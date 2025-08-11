@@ -325,38 +325,14 @@ const About = () => {
                       <p className="text-gray-900 leading-relaxed">
                         Yes Bank Ltd., Ground Floor,
                         <br /> Plot No, M-31A, M-Block Market,
-                        Greater Kailash-II, <br /> New Delhi 110048
+                        <br /> Greater Kailash-II, New Delhi 110048
                       </p>
                     </div>
                   </div>
                 </Card>
               </motion.div>
 
-              {/* Bank Branch Information */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-                className="md:col-span-2"
-              >
-                <Card className="p-6 h-full">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <ApperIcon name="Building2" className="w-6 h-6 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
-                    Bank Branch
-                  </h3>
-                  <div className="text-sm text-center">
-                    <p className="text-gray-900 leading-relaxed">
-                      Yes Bank Ltd., Ground Floor, Plot No, M-31A, M-Block Market,
-                      <br />
-                      Greater Kailash-II, New Delhi 110048
-                    </p>
-                  </div>
-                </Card>
-              </motion.div>
-
+              
             </div>
           </section>
         )
