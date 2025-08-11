@@ -276,16 +276,15 @@ const About = () => {
                     </div>
                     <div>
                       <p className="font-medium text-gray-700">Corporate Identification Number (CIN):U85110DL2008NPL179295 </p>
-                      <p className="text-gray-900">U85110DL2008NPL179295</p>
-                    </div>
+                      </div>
                     <div>
-                      <p className="font-medium text-gray-700">Registration Number for 80G:</p>
-                      <p className="text-gray-900">AABCI9042GF20215</p>
+                      <p className="font-medium text-gray-700">Registration Number for 80G: AABCI9042GF20215</p>
+                      
                     </div>
 
                     <div>
-                      <p className="font-medium text-gray-700">Registration Number for 12AA:</p>
-                      <p className="text-gray-900">AABCI9042GE20084</p>
+                      <p className="font-medium text-gray-700">Registration Number for 12AA:AABCI9042GE20084 </p>
+                      
                     </div>
                   </div>
                 </Card>
@@ -308,24 +307,23 @@ const About = () => {
                   </h3>
                   <div className="space-y-3 text-sm">
                     <div>
-                      <p className="font-medium text-gray-700">Account Number:</p>
-                      <p className="text-gray-900">038694600000013</p>
+                      <p className="font-medium text-gray-700">Account Number: 038694600000013</p>
+                      
                     </div>
                     <div>
-                      <p className="font-medium text-gray-700">IFS Code:</p>
-                      <p className="text-gray-900">YESB0000386</p>
+                      <p className="font-medium text-gray-700">IFS Code:YESB0000386</p>
+                      
                     </div>
                     <div>
-                      <p className="font-medium text-gray-700">MICR Code:</p>
-                      <p className="text-gray-900">110532062</p>
+                      <p className="font-medium text-gray-700">MICR Code:110532062</p>
+                      
                     </div>
                     <div>
-                      <p className="font-medium text-gray-700">Swift Code:</p>
-                      <p className="text-gray-900">YESBINBB</p>
+                      <p className="font-medium text-gray-700">Swift Code:YESBINBB</p>
+                      
                       <p className="font-medium text-gray-700">Bank Branch:</p>
                       <p className="text-gray-900 leading-relaxed">
                         Yes Bank Ltd., Ground Floor, Plot No, M-31A, M-Block Market,
-                        <br />
                         Greater Kailash-II, New Delhi 110048
                       </p>
                     </div>
