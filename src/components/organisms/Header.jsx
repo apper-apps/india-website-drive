@@ -21,17 +21,18 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            //<div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-             // <ApperIcon name="Globe" className="w-6 h-6 text-white" />
-           // </div>
+          {/*  <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
+            <ApperIcon name="Globe" className="w-6 h-6 text-white" />
+            </div> */}
+
             <img
               src="https://drive.google.com/file/d/1DOiDfeTZ1U3ApkfvQjPfkDfUiSjx-5v4/view?usp=drive_link"
               className="h-12 w-auto"
             />
-          //  <div className="hidden sm:block">
-           //   <h1 className="text-xl font-bold text-gray-900">IGD India</h1>
-           //   <p className="text-xs text-gray-600">Institute for Global Development</p>
-          //  </div>
+            <div className="hidden sm:block">
+             <h1 className="text-xl font-bold text-gray-900">IGD India</h1>
+             <p className="text-xs text-gray-600">Institute for Global Development</p>
+           </div>
           </Link>
 
           {/* Desktop Navigation */}
