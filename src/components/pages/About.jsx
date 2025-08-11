@@ -272,9 +272,17 @@ const About = () => {
                   </h3>
                   <div className="space-y-3 text-sm">
                     <div>
+                      <p className="font-medium text-gray-700">PAN Card Number : AABCI9042G</p>
+                    </div>
+                    <div>
+                      <p className="font-medium text-gray-700">Corporate Identification Number (CIN):U85110DL2008NPL179295 </p>
+                      <p className="text-gray-900">U85110DL2008NPL179295</p>
+                    </div>
+                    <div>
                       <p className="font-medium text-gray-700">Registration Number for 80G:</p>
                       <p className="text-gray-900">AABCI9042GF20215</p>
                     </div>
+
                     <div>
                       <p className="font-medium text-gray-700">Registration Number for 12AA:</p>
                       <p className="text-gray-900">AABCI9042GE20084</p>
