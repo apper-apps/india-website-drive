@@ -24,6 +24,11 @@ const Header = () => {
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
               <ApperIcon name="Globe" className="w-6 h-6 text-white" />
             </div>
+            <img
+              src="https://content.jdmagicbox.com/v2/comp/delhi/k4/011pxx11.xx11.160322121532.x7k4/catalogue/techlopers-solutions-pvt-ltd-laxmi-nagar-delhi-logo-designers-ucan4jlj72.jpg"
+              alt="Techlopers Solutions"
+              className="h-12 w-auto"
+            />
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-gray-900">IGD India</h1>
               <p className="text-xs text-gray-600">Institute for Global Development</p>
