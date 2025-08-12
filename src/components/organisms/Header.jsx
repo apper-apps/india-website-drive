@@ -26,7 +26,7 @@ const Header = () => {
             </div> */}
 
             <img
-              src="https://drive.google.com/file/d/1DOiDfeTZ1U3ApkfvQjPfkDfUiSjx-5v4/view?usp=drive_link"
+              src="https://flic.kr/p/2rn98Er"
               className="h-12 w-auto"
             />
             <div className="hidden sm:block">
