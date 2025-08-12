@@ -38,7 +38,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-1">
+          <nav className="hidden md:flex items-center space-x-2">
             <NavigationItem to="/">Home</NavigationItem>
             <NavigationItem to="/about">About Us</NavigationItem>
             <NavigationItem to="/contact">Contact</NavigationItem>
