@@ -26,13 +26,15 @@ const Header = () => {
             </div> */}
 
             <img
-              src="https://flic.kr/p/2rn98Er"
+              src="https://tse3.mm.bing.net/th/id/OIP.pOEBy8lNSW27QCH9KzrC7QHaD8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
               className="h-12 w-auto"
             />
+            {/*
             <div className="hidden sm:block">
              <h1 className="text-xl font-bold text-gray-900">IGD India</h1>
              <p className="text-xs text-gray-600">Institute for Global Development</p>
            </div>
+           */}
           </Link>
 
           {/* Desktop Navigation */}
