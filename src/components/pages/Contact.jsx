@@ -186,10 +186,13 @@ const Contact = () => {
       </section>
 
       {/* Contact Photos */}
-      <PhotoGallery 
-        photos={contactData.photos} 
+      {/*
+      <PhotoGallery
+        photos={contactData.photos}
         title="Visit Our Office"
       />
+
+      */}
     </div>
   );
 };
