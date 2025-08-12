@@ -27,7 +27,7 @@ const Header = () => {
 
             <img
               src="https://tse3.mm.bing.net/th/id/OIP.pOEBy8lNSW27QCH9KzrC7QHaD8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
-              className="h-15 w-auto"
+              className="h-12 w-auto"
             />
             {/*
             <div className="hidden sm:block">
