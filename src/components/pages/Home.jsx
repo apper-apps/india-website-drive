@@ -191,13 +191,14 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Photo Gallery */}
+      {/* Photo Gallery 
       <PhotoGallery 
         photos={homeData.photos} 
         title="Our Work in Action"
       />
+      */}
 
-      {/* Call to Action */}
+      {/* Call to Action 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <motion.div
@@ -233,7 +234,7 @@ const Home = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section>  */}
     </div>
   );
 };
